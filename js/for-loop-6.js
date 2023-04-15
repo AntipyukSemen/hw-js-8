@@ -8,7 +8,7 @@ for (let i = 1; i <= goods; i += 1) {
   randomPrice = Math.round(Math.random() * (max - min) + min);
   console.log(`Ціна ${i} товару ${randomPrice}`);
   totalPrice += randomPrice;
-  if (i === 5) {
+  if (i === goods) {
     console.log(`Загальна сума ${totalPrice}`);
   };
 };
