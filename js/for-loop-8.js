@@ -1,21 +1,10 @@
-let grade = 8;
+let grade = Number(prompt('Введіть вашу оцінку'));
+console.log(grade);
 
-// while (grade < 7) {
-//     grade++;
-//     console.log(`Ваша оцінка ${grade}`);
-//     break;
-// };
+for (let i = grade; i < 7; i++) {
+  console.log(`У вас низький рівень знань ваш середній бал складає ${grade}`);
+};
 
-// while (grade) {
-//     // grade++;
-//     if (grade < 7) {
-//         break;
-//     } else if (grade > 7) {
-//         console.log(`Ваша оцінка ${grade}`);
-//     };
-// };
-
-// do {
-//     grade++;
-//     console.log(`Ваша оцінка ${grade}`);
-// } while (grade > 7);
+for (let i = grade; i <= 12; i++) {
+  console.log(`У вас гарний рівень знань ваша оцінка ${grade}`);
+};
